@@ -6,24 +6,24 @@ This project investigates gender representation disparities in Wikipedia by anal
 
 ## 🔍 Problem Statement
 Wikipedia shapes global knowledge access, but gender bias in its content can perpetuate societal inequalities. This project:
-Quantifies the extent of gender bias across professions
-Predicts which biographies are at risk of bias
-Provides actionable tools for bias reduction
+- Quantifies the extent of gender bias across professions
+- Predicts which biographies are at risk of bias
+- Provides actionable tools for bias reduction
 
 ## 📊 Methodology
 ### Data Collection
 
-Gathered biographical data from Wikidata across 5 profession categories
-Collected information on gender, occupation, birth year, and Wikipedia presence
-Final dataset: 1,111 unique biographies after deduplication
+- Gathered biographical data from Wikidata across 5 profession categories
+- Collected information on gender, occupation, birth year, and Wikipedia presence
+- Final dataset: 1,111 unique biographies after deduplication
 
 ### Analysis Pipeline
 
-Data Processing: Cleaned and standardized profession categories
-Exploratory Analysis: Identified gender distribution patterns
-Feature Engineering: Created STEM classification and temporal groupings
-Machine Learning: Built two Random Forest models
-Visualization: Created an interactive dashboard for insights
+- Data Processing: Cleaned and standardized profession categories
+- Exploratory Analysis: Identified gender distribution patterns
+- Feature Engineering: Created STEM classification and temporal groupings
+- Machine Learning: Built two Random Forest models
+- Visualization: Created an interactive dashboard for insights
 
 ### Models Developed
 #### Model 1: Article Quality Classifier
